@@ -386,15 +386,28 @@ input[type=submit] {
   .container  {
     width: 90%;
   }
+
+  .main-section {
+    max-width: 610px;
+  }
+
+  .auth-image {
+    height: auto;
+    width: 200px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .container  {
-    width: 95%;
+    width: 96%;
   }
   .main-section {
     width: 100%;
-    min-width: 100;
+    max-width: 760px;
+  }
+  .auth-image {
+    height: auto;
+    width: 335px;
   }
 }
 
